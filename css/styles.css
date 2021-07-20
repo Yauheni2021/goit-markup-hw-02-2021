@@ -1,4 +1,91 @@
-.page/* цвет лого черный #000000 */
+.body {
+  background-color: #ffffff;
+  color: #757575;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 14px;
+}
+/* header */
+.logo {
+  color: #2196f3;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.logoheder {
+  color: #000000;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.nav-link .link {
+  color: #c4c4c4;
+  text-decoration: none;
+}
+.nav-link .link:hover,
+.nav-link .link:focus {
+  color: #2196f3;
+}
+/* hero */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: #ffffff;
+}
+.hero-button {
+  background-color: #188ce8;
+  color: #ffffff;
+  font-weight: bold;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+/* features */
+.feature-list .title {
+  color: #212121;
+}
+.feature-list .text {
+  color: #757575;
+}
+ul {
+  list-style: none;
+}
+/* footer */
+.footer {
+  background-color: #2f303a;
+}
+.footer-address .link {
+  text-decoration: none;
+}
+.footer .logofooter {
+  color: #ffffff;
+  letter-spacing: 0.03em;
+}
+.footer .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+/* цвет лого черный #000000 */
 /* цвет лого синий #2196F3 */
 /* цвет в шапке черный #212121 */
 /* цвет заголовка h1 #FFFFFF */
@@ -10,4 +97,4 @@
 /* цвет адреса внизу белый #FFFFFF; */
 /* цвет контактов внизу rgba(255, 255, 255, 0.6); */
 /* вторичный цвет фона #F5F4FA */
-/*  */;
+/*  */ ;
