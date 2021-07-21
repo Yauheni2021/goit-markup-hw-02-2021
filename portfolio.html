@@ -11,21 +11,21 @@
     <!-- Верхушка-->
     <header>
         <h1>Портфолио</h1>
-        <nav>
+        <nav class="nav">
             <a href="./index.html" class="logo">Web<span class="logoheder">Studio</span></a>
             <ul>
-                <li><a href="./index.html">Студия</a></li>
-                <li><a href="./portfolio.html">Портфолио</a></li>
-                <li><a href="Контакты">Контакты</a></li>
+                <li><a href="./index.html" class="link-secondary">Студия</a></li>
+                <li><a href="./portfolio.html" class="link-secondary">Портфолио</a></li>
+                <li><a href="Контакты" class="link-secondary">Контакты</a></li>
             </ul>
         </nav>
         <ul>
     
             <li>
-                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
             </li>
             <li>
-                <a href="tel:380961111111"> +38 096 111 11 11</a>
+                <a href="tel:380961111111" class="link"> +38 096 111 11 11</a>
             </li>
         </ul>
     
@@ -34,19 +34,19 @@
     <main>
         <section>
             <nav>
-                <ul>
-                    <li><button type="button">Все</button></li>
-                    <li><button type="button">Веб-сайты</button></li>
-                    <li><button type="button">Приложения</button></li>
-                    <li><button type="button">Дизайн</button></li>
-                    <li><button type="button">Маркетинг</button></li>
+                <ul class="nav-buttons">
+                    <li><button type="button" class="secondary-button">Все</button></li>
+                    <li><button type="button" class="secondary-button">Веб-сайты</button></li>
+                    <li><button type="button" class="secondary-button">Приложения</button></li>
+                    <li><button type="button" class="secondary-button">Дизайн</button></li>
+                    <li><button type="button" class="secondary-button">Маркетинг</button></li>
                 </ul>
             </nav>
-            <ul>
+            <ul class="section-list">
                 <li><a href="#" class="">
                 <img src="./images/img(4).jpg" alt="ноутбук с фотографиями" width="370">
                 <h2 class="subtitel">Технокряк</h2>
-                <p>Веб-сайт</p>
+                <p class="subtext">Веб-сайт</p>
                 </a>
                 </li>
                 <li><a href="#" class="">
@@ -102,18 +102,22 @@
     </main>
     <!--Footer-->
     <footer class="footer">
-        <a href="WebStudio" class="logo">Web<span class="logoheder">Studio</span></a>
-        <address>
-            <ul>
+    
+    
+        <a href="./index.html" class="logo">Web<span class="logofooter">Studio</span></a>
+        <address class="footer-address">
+            <ul class="footer-list">
+    
                 <li>
-                    <a href="https://googl/maps/p9azrNyudhK6fdbVA" rel="nofollow" target=“_blank”> г. Киев, пр-т Леси
-                        Украинки, 26</a>
+                    <a href="https://googl/maps/p9azrNyudhK6fdbVA" rel="nofollow" target=“_blank” class="link">
+                        <span class="secondary-link">г. Киев, пр-т Леси Украинки, 26</span></a>
                 </li>
                 <li>
-                    <a href="mailto:info@example.com">info@example.com</a>
+                    <a href="mailto:info@example.com" class="link">info@example.com</a>
                 </li>
-                <li><a href="tel:+380991111111">+38 099 111 11 11</a>
+                <li><a href="tel:+380991111111" class="link">+38 099 111 11 11</a>
                 </li>
+    
             </ul>
         </address>
     </footer>
