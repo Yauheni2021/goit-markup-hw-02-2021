@@ -1,3 +1,8 @@
+:root {
+  --title-text-color: var(--title-text-color);
+  --primary-text-color: var(--title-text-color) --;
+  --accent-color: var(--accent-color);
+}
 .body {
   background-color: #ffffff;
   color: #757575;
@@ -36,12 +41,16 @@
   letter-spacing: 0.03em;
   text-decoration: none;
 }
-.nav-link .link {
+.link {
   color: #c4c4c4;
   text-decoration: none;
+  width: 49px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
 }
-.nav-link .link:hover,
-.nav-link .link:focus {
+.link:hover,
+.link:focus {
   color: #2196f3;
 }
 /* hero */
@@ -50,11 +59,30 @@
 }
 .hero-title {
   color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .hero-button {
   background-color: #188ce8;
   color: #ffffff;
   font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 30px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -64,26 +92,137 @@
 /* features */
 .feature-list .title {
   color: #212121;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .feature-list .text {
+  color: #757575;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+/* Чем мы занимаемся? */
+.section-title .title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* Наша команда */
+.section-team {
+  background-color: #f5f4fa;
+}
+.section-team .img {
+  color: ;
+}
+.section-team .title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.section-team .subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.section-team .subtext {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
   color: #757575;
 }
 ul {
   list-style: none;
 }
+
 /* footer */
 .footer {
   background-color: #2f303a;
 }
+.footer-address .secondary-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
 .footer-address .link {
-  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
 }
 .footer .logofooter {
   color: #ffffff;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+
   letter-spacing: 0.03em;
 }
 .footer .link {
   color: rgba(255, 255, 255, 0.6);
+}
+/* Портфолио */
+.nav .link-secondary {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #212121;
+}
+.link-secondary:hover,
+.link-secondary:focus {
+  color: #2196f3;
+}
+/* кнопки */
+.nav-buttons .secondary-button {
+  color: #212121;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  cursor: pointer;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.nav-buttons .secondary-button:hover,
+.nav-buttons .secondary-button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+/* Проекты */
+.section-list .subtitle {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+
+  letter-spacing: 0.06em;
+  color: #212121;
 }
 /* цвет лого черный #000000 */
 /* цвет лого синий #2196F3 */
