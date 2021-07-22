@@ -1,7 +1,7 @@
 :root {
-  --title-text-color: var(--title-text-color);
-  --primary-text-color: var(--title-text-color) --;
-  --accent-color: var(--accent-color);
+  --title-text-color: #212121;
+  --primary-text-color: #757575;
+  --accent-color: #2196f3;
 }
 .body {
   background-color: #ffffff;
@@ -13,41 +13,41 @@
 /* header */
 .logo {
   color: #2196f3;
-  width: 145px;
+  /* width: 145px;
   height: 31px;
   left: 215px;
-  top: 24px;
+  top: 24px; */
 
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19em;
   letter-spacing: 0.03em;
   text-decoration: none;
 }
 .logoheder {
   color: #000000;
-  width: 145px;
+  /* width: 145px;
   height: 31px;
   left: 215px;
-  top: 24px;
+  top: 24px; */
 
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19em;
   letter-spacing: 0.03em;
   text-decoration: none;
 }
 .link {
   color: #c4c4c4;
   text-decoration: none;
-  width: 49px;
+  /* width: 49px;
   height: 16px;
   left: 453px;
-  top: 32px;
+  top: 32px; */
 }
 .link:hover,
 .link:focus {
@@ -61,7 +61,7 @@
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36em;
 
   text-align: center;
   letter-spacing: 0.06em;
@@ -73,16 +73,10 @@
   font-weight: bold;
   cursor: pointer;
   font-size: 16px;
-  line-height: 30px;
-
-  display: flex;
+  line-height: 1.87em;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -90,61 +84,46 @@
   color: #ffffff;
 }
 /* features */
-.feature-list .title {
-  color: #212121;
-  font-style: normal;
+.feature-list .section-title {
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
+  line-height: 1.14em;
   text-transform: uppercase;
 }
-.feature-list .text {
-  color: #757575;
-  font-weight: normal;
+.section-text {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71em;
   letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
 /* Чем мы занимаемся? */
-.section-title .title {
+.section-title.h2 {
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16em;
   text-align: center;
   letter-spacing: 0.03em;
+  color: var(--title-text-color);
 }
 /* Наша команда */
 .section-team {
   background-color: #f5f4fa;
 }
-.section-team .img {
-  color: ;
-}
-.section-team .title {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-.section-team .subtitle {
+
+.section-team .section-title {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
-
+  line-height: 1.18em;
   text-align: center;
   letter-spacing: 0.03em;
 }
-.section-team .subtext {
-  font-weight: normal;
+.section-team .section-text {
   font-size: 16px;
-  line-height: 19px;
-
+  line-height: 1.18em;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
 }
+
 ul {
   list-style: none;
 }
@@ -158,7 +137,7 @@ ul {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71em;
 
   letter-spacing: 0.03em;
 
@@ -169,7 +148,7 @@ ul {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71em;
 
   letter-spacing: 0.03em;
 }
@@ -177,7 +156,7 @@ ul {
   color: #ffffff;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19em;
 
   letter-spacing: 0.03em;
 }
@@ -189,7 +168,7 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14em;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: #212121;
@@ -204,7 +183,7 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62em;
   cursor: pointer;
 
   text-align: center;
@@ -216,13 +195,22 @@ ul {
   color: #ffffff;
 }
 /* Проекты */
-.section-list .subtitle {
+.suplink {
+  text-decoration: none;
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2em;
 
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--title-text-color);
+}
+.section .subtitle {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2em;
+
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
 }
 /* цвет лого черный #000000 */
 /* цвет лого синий #2196F3 */
