@@ -2,17 +2,24 @@
   --title-text-color: #212121;
   --primary-text-color: #757575;
   --accent-color: #2196f3;
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #2f303a;
+  --logo-color: #000000;
+  --link-color: #c4c4c4;
+  --bg-button-color: #188ce8;
+  --bg-team-color: #f5f4fa;
+  --footer-link-color: rgba(255, 255, 255, 0.6);
 }
 .body {
-  background-color: #ffffff;
-  color: #757575;
+  color: var(--primary-bg-color);
+  color: var(--primary-text-color);
   font-family: Roboto;
   font-style: normal;
   font-size: 14px;
 }
 /* header */
 .logo {
-  color: #2196f3;
+  color: var(--accent-color);
   /* width: 145px;
   height: 31px;
   left: 215px;
@@ -27,7 +34,7 @@
   text-decoration: none;
 }
 .logoheder {
-  color: #000000;
+  color: var(--logo-color);
   /* width: 145px;
   height: 31px;
   left: 215px;
@@ -42,7 +49,7 @@
   text-decoration: none;
 }
 .link {
-  color: #c4c4c4;
+  color: var(--link-color);
   text-decoration: none;
   /* width: 49px;
   height: 16px;
@@ -51,14 +58,14 @@
 }
 .link:hover,
 .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 /* hero */
 .hero {
-  background-color: #2f303a;
+  background-color: var(--secondary-bg-color);
 }
 .hero-title {
-  color: #ffffff;
+  color: var(--primary-bg-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36em;
@@ -68,8 +75,8 @@
   text-transform: uppercase;
 }
 .hero-button {
-  background-color: #188ce8;
-  color: #ffffff;
+  background-color: var(--bg-button-color);
+  color: var(--primary-bg-color);
   font-weight: bold;
   cursor: pointer;
   font-size: 16px;
@@ -80,8 +87,8 @@
 }
 .hero-button:hover,
 .hero-button:focus {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--accent-color);
+  color: var(--primary-bg-color);
 }
 /* features */
 .feature-list .section-title {
@@ -107,7 +114,7 @@
 }
 /* Наша команда */
 .section-team {
-  background-color: #f5f4fa;
+  background-color: var(--bg-team-color);
 }
 
 .section-team .section-title {
@@ -130,7 +137,7 @@ ul {
 
 /* footer */
 .footer {
-  background-color: #2f303a;
+  background-color: var(--secondary-bg-color);
 }
 .footer-address .secondary-link {
   font-family: Roboto;
@@ -141,7 +148,7 @@ ul {
 
   letter-spacing: 0.03em;
 
-  color: #ffffff;
+  color: var(--primary-bg-color);
 }
 .footer-address .link {
   font-family: Roboto;
@@ -153,7 +160,7 @@ ul {
   letter-spacing: 0.03em;
 }
 .footer .logofooter {
-  color: #ffffff;
+  color: var(--primary-bg-color);
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19em;
@@ -161,7 +168,7 @@ ul {
   letter-spacing: 0.03em;
 }
 .footer .link {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(footer-link-color);
 }
 /* Портфолио */
 .nav .link-secondary {
@@ -171,15 +178,15 @@ ul {
   line-height: 1.14em;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: #212121;
+  color: var(--title-text-color);
 }
 .link-secondary:hover,
 .link-secondary:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 /* кнопки */
 .nav-buttons .secondary-button {
-  color: #212121;
+  color: var(--title-text-color);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -191,8 +198,8 @@ ul {
 }
 .nav-buttons .secondary-button:hover,
 .nav-buttons .secondary-button:focus {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--accent-color);
+  color: var(--primary-bg-color);
 }
 /* Проекты */
 .suplink {
@@ -204,13 +211,12 @@ ul {
   letter-spacing: 0.06em;
   color: var(--title-text-color);
 }
-.section .subtitle {
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 2em;
+.section .subtext {
+  font-size: 16px;
+  line-height: 1.87em;
+  color: var(--primary-text-color);
 
-  letter-spacing: 0.06em;
-  color: var(--title-text-color);
+  letter-spacing: 0.03em;
 }
 /* цвет лого черный #000000 */
 /* цвет лого синий #2196F3 */
