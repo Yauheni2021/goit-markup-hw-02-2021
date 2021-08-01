@@ -13,7 +13,8 @@
 .body {
   color: var(--primary-bg-color);
   color: var(--primary-text-color);
-  font-family: Roboto;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-size: 14px;
 }
@@ -51,6 +52,7 @@
 .link {
   color: var(--link-color);
   text-decoration: none;
+  font-weight: 500;
   /* width: 49px;
   height: 16px;
   left: 453px;
@@ -58,6 +60,12 @@
 }
 .link:hover,
 .link:focus {
+  color: var(--accent-color);
+}
+.nav-link.list .link.current {
+  color: var(--accent-color);
+}
+.contacts-list-sections .link.current {
   color: var(--accent-color);
 }
 /* hero */
@@ -171,6 +179,9 @@ ul {
   color: var(footer-link-color);
 }
 /* Портфолио */
+.secondary-heading {
+  display: none;
+}
 .nav .link-secondary {
   font-style: normal;
   font-weight: 500;
@@ -182,6 +193,9 @@ ul {
 }
 .link-secondary:hover,
 .link-secondary:focus {
+  color: var(--accent-color);
+}
+.link-secondary.current {
   color: var(--accent-color);
 }
 /* кнопки */
@@ -210,6 +224,8 @@ ul {
 
   letter-spacing: 0.06em;
   color: var(--title-text-color);
+}
+.section-list .suplist {
 }
 .section .subtext {
   font-size: 16px;
