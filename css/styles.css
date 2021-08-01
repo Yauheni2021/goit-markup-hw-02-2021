@@ -56,6 +56,9 @@ body {
   left: 453px;
   top: 32px; */
 }
+.nav-list {
+  color: var(--link-color);
+}
 .link:hover,
 .link:focus {
   color: var(--accent-color);
@@ -223,13 +226,18 @@ ul {
   letter-spacing: 0.06em;
   color: var(--title-text-color);
 }
-.section-list .suplist {
+.section-list .subtitel {
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2em;
+  letter-spacing: 0.06em;
 }
 .section .subtext {
   font-size: 16px;
   line-height: 1.87em;
   color: var(--primary-text-color);
-
+  font-weight: normal;
   letter-spacing: 0.03em;
 }
 /* цвет лого черный #000000 */
