@@ -13,9 +13,7 @@
 .body {
   color: var(--primary-bg-color);
   color: var(--primary-text-color);
-  font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-size: 14px;
 }
 /* header */
