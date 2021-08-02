@@ -48,7 +48,7 @@ body {
   text-decoration: none;
 }
 .link {
-  color: var(--link-color);
+  color: var(--title-text-color);
   text-decoration: none;
   font-weight: 500;
 }
